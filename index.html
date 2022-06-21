@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>My GA - Gabon</title>
+  </head>
+  <body>
+    <header>
+      <img src="./logo.png" alt="logo" id="logo" />
+
+      <nav>
+        <ul>
+          <li><a href="">A propos</a></li>
+          <li><a href="">Faq</a></li>
+          <li><a href="">Contactez-Nous</a></li>
+        </ul>
+      </nav>
+
+      <select class="selectpicker" data-width="fit">
+        <option>English</option>
+        <option>Français</option>
+      </select>
+    </header>
+
+    <section class="main">
+      <form role="search">
+        <label for="search"></label>
+        <input
+          id="search"
+          type="search"
+          placeholder="Enregistrez votre domaine .GA GRATUIT"
+          required
+        />
+        <button type="submit">Go</button>
+      </form>
+    </section>
+
+    <div class="footer">
+      <ul>
+        <li><a href="#">Politique</a></li>
+        <li><a href="#">Bureaux d'enregistrement</a></li>
+        <li><a href="#">Api</a></li>
+      </ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
