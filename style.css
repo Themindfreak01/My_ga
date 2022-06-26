@@ -165,7 +165,6 @@ button:hover{
     justify-content: center;
     align-items: center;
     background-color: aqua;
-    background-image: url(./bg1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,17 +182,17 @@ button:hover{
 @keyframes animate{
 
     0%{
-        background-image: url(./bg2.jpg);
+        background-image: url(./img/bg2.jpg);
         
     }
 
     50%{
-        background-image: url(./bg3.jpg);
+        background-image: url(./img/bg3.jpg);
 
     }
 
     100%{
-        background-image: url(./bg4.jpg);
+        background-image: url(./img/bg4.jpg);
 
     }
 }
